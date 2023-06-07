@@ -1,0 +1,35 @@
+.checkbox-valid:hover {
+    border-color: #02B89D;
+}
+
+.checkbox-valid::after {
+    border-color: #02B89D;
+}
+
+.checkbox-valid:focus {
+    box-shadow: 0px 0px 0px 4px rgba(100, 219, 201, 0.5);
+    border-color: #02B89D;
+}
+
+.checkbox-valid:checked {
+    background-color: #02B89D;
+    border-color: #02B89D;
+}
+
+.checkbox-invalid:hover {
+    border-color: #DC3545;
+}
+
+.checkbox-invalid::after {
+    border-color: #DC3545;
+}
+
+.checkbox-invalid:focus {
+    box-shadow: 0px 0px 0px 4px rgba(220, 53, 69, 0.5);
+    border-color: #DC3545;
+}
+
+.checkbox-invalid:checked {
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
